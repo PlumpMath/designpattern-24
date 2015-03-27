@@ -10,6 +10,5 @@ public enum ShapeTypes {
     TRIANGLE,
     ELLIPSE,
     RECTANGULAR,
-    HEXAGON
 
 }

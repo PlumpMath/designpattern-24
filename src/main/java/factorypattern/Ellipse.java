@@ -7,6 +7,6 @@ public class Ellipse implements Shape {
 
     @Override
     public void draw() {
-        System.out.println("Draw ellipse");
+        System.out.println("Draw Ellipse");
     }
 }

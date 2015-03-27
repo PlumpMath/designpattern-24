@@ -14,9 +14,9 @@ public class ShapeFactory {
         else if(ShapeTypes.ELLIPSE == type)
             return new Ellipse();
         else if(ShapeTypes.RECTANGULAR == type)
-            return new Ellipse();
+            return new Rectangular();
         else if(ShapeTypes.SQUARE == type)
-            return new Ellipse();
+            return new Square();
 
         return null;
 
