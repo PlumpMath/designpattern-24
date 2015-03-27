@@ -8,7 +8,7 @@ public class Car {
     private Model model;
     private Brand brand;
     private String color;
-    private int power;
+    private int horsePower;
 
 
     public Model getModel() {
@@ -36,10 +36,10 @@ public class Car {
     }
 
     public int getHorsePower() {
-        return power;
+        return horsePower;
     }
 
-    public void setHorsePower(int power) {
-        this.power = power;
+    public void setHorsePower(int horsePower) {
+        this.horsePower = horsePower;
     }
 }
