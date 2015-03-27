@@ -17,3 +17,5 @@
 .idea/copyright/profiles_settings.xml
 
 .idea/scopes/scope_settings.xml
+
+*.class
