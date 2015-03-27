@@ -13,8 +13,13 @@ public class ShapeFactory {
             return new Triangle();
         else if(ShapeTypes.ELLIPSE == type)
             return new Ellipse();
+        else if(ShapeTypes.RECTANGULAR == type)
+            return new Ellipse();
+        else if(ShapeTypes.SQUARE == type)
+            return new Ellipse();
+
         return null;
-        
+
     }
 
 }
