@@ -5,10 +5,12 @@ package main.java.factorypattern;
  */
 public class ShapeFactory {
 
-    private static Shape shape;
-
-    Shape create(ShapeTypes type) {
+    
+    public static Shape create(ShapeTypes type) {
         if(ShapeTypes.CIRCLE == type)
+            return new Circle();
+
+        return null;
 
     }
 
