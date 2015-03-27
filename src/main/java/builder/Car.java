@@ -5,8 +5,27 @@ package main.java.builder;
  */
 public class Car {
 
+    private Model model;
+    private Brand brand;
     private String color;
     private int power;
+
+
+    public Model getModel() {
+        return model;
+    }
+
+    public void setModel(Model model) {
+        this.model = model;
+    }
+
+    public Brand getBrand() {
+        return brand;
+    }
+
+    public void setBrand(Brand brand) {
+        this.brand = brand;
+    }
 
     public String getColor() {
         return color;
