@@ -35,11 +35,11 @@ public class Car {
         this.color = color;
     }
 
-    public int getPower() {
+    public int getHorsePower() {
         return power;
     }
 
-    public void setPower(int power) {
+    public void setHorsePower(int power) {
         this.power = power;
     }
 }
