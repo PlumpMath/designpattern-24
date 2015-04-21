@@ -7,10 +7,8 @@ public class BuilderTest {
 
     public static void main(String[] args) {
         OrderManager orderManager = new OrderManager();
-        orderManager.createOrder("Audi","2005","Red",150);
-
+        orderManager.createOrder("Audi", "2005", "Red", 150);
         orderManager.printOrder();
-
     }
 
 }

@@ -7,8 +7,8 @@ public class OrderManager {
 
     private OrderBuilder orderBuilder;
 
-    public Car createOrder(String brand, String model,String color, int power){
-        if(brand.equalsIgnoreCase("audi"))
+    public Car createOrder(String brand, String model, String color, int power) {
+        if (brand.equalsIgnoreCase("audi"))
             orderBuilder = new AudiOrderBuilder();
 
         orderBuilder.setBrand(brand);
@@ -19,13 +19,11 @@ public class OrderManager {
         return orderBuilder.getCar();
     }
 
-    public void printOrder(){
-
-        System.out.println("Brand "+orderBuilder.getCar().getBrand());
-        System.out.println("Model "+orderBuilder.getCar().getModel());
-        System.out.println("Color "+orderBuilder.getCar().getColor());
-        System.out.println("Horse Power "+orderBuilder.getCar().getHorsePower());
-
+    public void printOrder() {
+        System.out.println("Brand " + orderBuilder.getCar().getBrand());
+        System.out.println("Model " + orderBuilder.getCar().getModel());
+        System.out.println("Color " + orderBuilder.getCar().getColor());
+        System.out.println("Horse Power " + orderBuilder.getCar().getHorsePower());
     }
 
 }
