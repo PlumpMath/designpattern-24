@@ -5,6 +5,7 @@ package main.java.decorator;
  */
 public class FramedMirror extends MirrorDecorator {
 
+    @Override
     public void produce() {
         getMirror().produce();
         addFrame();
@@ -13,5 +14,4 @@ public class FramedMirror extends MirrorDecorator {
     public void addFrame() {
         System.out.println("Frame has been added on mirror.");
     }
-
 }

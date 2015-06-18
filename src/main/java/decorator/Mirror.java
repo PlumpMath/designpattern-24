@@ -9,5 +9,4 @@ public class Mirror implements HouseholdGoods {
     public void produce() {
         System.out.println("Mirror has been produced.");
     }
-
 }

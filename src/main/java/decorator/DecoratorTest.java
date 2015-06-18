@@ -9,5 +9,4 @@ public class DecoratorTest {
         HouseholdGoods mirror = new FramedMirror();
         mirror.produce();
     }
-
 }

@@ -14,5 +14,4 @@ public abstract class MirrorDecorator implements HouseholdGoods {
     public HouseholdGoods getMirror() {
         return mirror;
     }
-
 }
